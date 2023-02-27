@@ -7,9 +7,9 @@ test of AE
 训练集仅由正常数据组成，验证集仅由异常数据组成，可以看到两者的重建误差之间存在明显距离：  
 ![image](image/loss.jpg)  
 测试集由近乎1：1的正常数据和异常数据组成，其重建loss分布如下：  
-![image](image/detection_1.png)
+![image](image/detection_1.png)  
 优化得到最佳阈值：0.025，在第二个测试集上进行验证：  
-![image](image/test2.png)
+![image](image/test2.png)  
 
 均可以得到还不错的效果；   
    
